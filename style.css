@@ -359,122 +359,153 @@ nav li:last-child
     padding: 0;
 }
 
-@media screen and (max-width: 900px) {
-    .logo {
+@media screen and (max-width: 900px) 
+{
+    .logo 
+    {
       width: 80px;
       margin: 8px 0;
     }
-    .section-title {
+    .section-title 
+    {
       margin-bottom: 34px;
     }
-    .section-title .ja {
+    .section-title .ja 
+    {
       margin-bottom: 24px;
     }
   
-    #header .inner {
+    #header .inner 
+    {
       flex-direction: column;
       align-items: flex-start;
     }
-    #header .contact {
+    #header .contact 
+    {
       display: none;
     }
-    #mainvisual {
+    #mainvisual 
+    {
       margin-bottom: 80px;
     }
 
-    #news {
+    #news 
+    {
       margin-bottom: 80px;
     }
-    #news .list {
+    #news .list 
+    {
       flex-direction: column;
     }
-    #news .list li {
+    #news .list li 
+    {
       width: 100%;
       border-right: none;
       padding: 10px 0;
       margin-bottom: 20px;
     }
-    #news .list li:last-child {
+    #news .list li:last-child 
+    {
       margin-bottom: 0;
     }
   
-    #about {
+    #about 
+    {
       flex-direction: column;
       margin-bottom: 80px;
     }
-    #about .img {
+    #about .img 
+    {
       width: 100%;
       margin-bottom: 30px;
     }
-    #about .img img {
+    #about .img img 
+    {
       height: 300px;
     }
-    #about .text {
+    #about .text 
+    {
       width: 100%;
       padding: 0 16px;
     }
   
-    #business {
+    #business 
+    {
       margin-bottom: 80px;
     }
-    #business .flex {
+    #business .flex 
+    {
       flex-direction: column;
       padding: 0;
     }
-    #business .flex .left {
+    #business .flex .left 
+    {
       width: 100%;
       margin: 0 0 30px 0;
     }
-    #business .flex .right {
+    #business .flex .right 
+    {
       width: 100%;
     }
-    #business .flex .item {
+    #business .flex .item 
+    {
       text-align: center;
       margin-bottom: 30px;
     }
-    #business .flex .title {
+    #business .flex .title 
+    {
       text-align: left;
     }
   
-    #company {
+    #company 
+    {
       height: auto;
       flex-direction: column;
       position: static;
     }
-    #company .text {
+    #company .text 
+    {
       width: 100%;
       padding: 40px 20px;
       margin-bottom: 20px;
       position: static;
     }
-    #company .img {
+    #company .img 
+    {
       width: 100%;
       padding: 0;
       position: static;
     }
-    #company .info {
+    #company .info 
+    {
       flex-direction: column;
     }
-    #company .info dt {
+    #company .info dt 
+    {
       width: 100%;
       margin-top: 20px;
     }
-    #company .info dd {
+    #company .info dd 
+    {
       width: 100%;
       margin-top: 5px;
       padding-left: 14px;
     }
-    #company .info dd:first-of-type {
+    #company .info dd:first-of-type 
+    {
       margin-top: 5px;
     }
-    #company .info .add {
+    #company .info .add 
+    {
       margin-left: 0;
     }
-    #footer .flex {
+    #footer .flex 
+    {
       flex-direction: column;
       align-items: flex-start;
     }
-    #footer .flex .logo {
+    #footer .flex .logo 
+    {
       margin-bottom: 10px;
     }
   }
